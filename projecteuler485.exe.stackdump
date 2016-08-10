@@ -1,0 +1,9 @@
+Exception: STATUS_STACK_OVERFLOW at eip=0040190B
+eax=FFDFF3F0 ebx=00000010 ecx=00422CB0 edx=0000000A esi=0061CC10 edi=611E7F32
+ebp=0061CC68 esp=0061ACA4 program=C:\Users\Joe\Documents\NetBeansProjects\ProjectEuler485\dist\Debug\Cygwin-Windows\projecteuler485.exe, pid 4756, thread unknown (0x1DAC)
+cs=001B ds=0023 es=0023 fs=003B gs=0000 ss=0023
+Stack trace:
+Frame     Function  Args
+0061CC68  0040190B (61328386, 611E7F32, 0061CD18, 61007D9A)
+0061CD18  61007D9A (00000000, 0061CD74, 61006DC0, 00000000)
+End of stack trace
